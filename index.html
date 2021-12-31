@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Image Editor  </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favion-JS3.png">
+    </head>
+<body>
+    <h2>Live <span class="h1">Image</span> Editor</h2>
+
+    <div class="controls">
+        <label for="spacing">Spacing:</label>
+        <input type="range" name="spacing" min="0" max="200" value="0" data-sizing="px">
+
+        <label for="blur">Blur:</label>
+        <input type="range" name="blur" min="0" max="25" value="0" data-sizing="px">
+
+        <label for="base">Base Color</label>
+        <input type="color" name="base" value="#0fbd4f">
+    </div>
+
+    <img src="https://unsplash.it/800/500/?random" id="image">
+    <script type="text/JavaScript" src="main.js"></script>
+</body>
+</html> 
